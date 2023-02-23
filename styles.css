@@ -1,0 +1,88 @@
+
+:root{
+    --pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ img{
+    max-width: 100%;
+ }
+ body{
+    font-family: sans-serif;
+    background-color: var(--pale-blue);
+    text-align: center;
+    line-height: 1.6;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+ }
+ /* .bg__image{
+    background: url("./images/pattern-background-mobile.svg") no-repeat center center cover;
+    height: 400px;
+    position: absolute;
+ } */
+ .container{
+    background-color: #fff;
+    margin:20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px hsl(228, 45%, 44%);
+    top:30px;
+    width: 80%;
+    position: relative;
+
+ }
+ 
+ h1{
+    position: fixed;
+    color: hsl(223, 47%, 23%);
+    text-decoration: none;
+
+ }
+ 
+.btn{
+background: var(--Bright-blue);
+color: white;
+text-decoration: none;
+font-weight: bold;
+border-radius: 7px;
+padding: 7px 12px;
+border: 6px var(--Bright-blue);
+cursor: pointer;
+align-self: center;
+transition: all 0.2s ease-in-out;
+
+}
+.btn:hover{
+    background-color: var(--Desaturated-blue);
+    opacity: 0.8;
+    color: white;
+}
+article{
+    display:inline-flex;
+    position: relative;
+    padding: 10px;
+    width: 30%;
+    background:rgb(169, 229, 238);
+    border-radius: 5px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+ /* Attribution */
+
+    /* .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    } */
+    /* .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    } */
