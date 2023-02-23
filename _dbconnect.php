@@ -1,8 +1,9 @@
 <?php
 $server = "localhost";
 $name = "root";
-$number = ;
-$email = ;
+$number = " ";
+$email = " ";
+$address = " ";
 $database = "submission1998";
 $conn = mysql_connect($server, $name, $number, $email, $database);
 if(!$conn){
