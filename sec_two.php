@@ -9,8 +9,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $address = $_POST["add"];
     $exists =false;
     if($exists == false){
-        $sql = "INSERT INTO 'submissions1998' ('name','num','email', 'add')
-        VALUES ('$name', '$number', '$email', '$address')";
+        
+ $sql="INSERT INTO `submissions1998` (`name`, `number`, `email`, `address`) VALUES ('$name', '$number', '$email', '$address')";
         $result = mysqli_query($conn, $sql);
         if($result){
             $showAlert = true;
